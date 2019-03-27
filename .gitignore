@@ -1,0 +1,7 @@
+.DS_Store
+.ipynb_checkpoints/analysis-checkpoint.ipynb
+.vscode/settings.json
+__pycache__/constants.cpython-36.pyc
+__pycache__/preproc_functions.cpython-36.pyc
+dataframes/df_data.pkl
+dataframes/my_dataframe.pkl
