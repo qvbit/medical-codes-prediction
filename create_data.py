@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import re
 
 from preproc_functions import *
 from constants import *
@@ -51,6 +52,15 @@ if __name__ == '__main__':
     
     # Convert labels to a semi-colon seperated string.
     grouped['LABELS'] = grouped['LABELS'].apply(lambda x: ';'.join(x))
+
+    remove = ['admission date:', 'discharge date:', 'date of birth:', 'service:', 'chief complaint:', 'HISTORY OF PRESENT ILLNESS:',
+          'PAST MEDICAL HISTORY:', 'admission diagnosis:', 'history of the present illness:', 'attending:', 'cc:']
+
+    remove = [r.lower() for r in remove]
+
+    #remove words in 'remove' as these dont add anything informative. 
+    grouped['TEXT'] = grouped['TEXT'].apply(lambda x: re.sub(r'|'.join(map(re.escape, remove)), '', x.lower()))
+    grouped['TEXT'] = grouped['TEXT'].apply(lambda x: x.lstrip())
     
     # Save dataframe
     grouped.to_pickle('dataframes/df_data.pkl')
