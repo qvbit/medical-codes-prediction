@@ -1,6 +1,6 @@
 # medical-codes-prediction
 
-(Report below)
+(Report takes a few seconds to load)
 
 ![Alt text](/report/page1.png?raw=true "Report")
 ![Alt text](/report/page2.png?raw=true "Report")
