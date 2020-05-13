@@ -1,2 +1,12 @@
 # medical-codes-prediction
-Predict ICD9 codes from clinical text using BERT (Bidirectional Encoder Representations from Transformers). 
+
+![Alt text](/report/page1.png?raw=true "Report")
+![Alt text](/report/page2.png?raw=true "Report")
+![Alt text](/report/page3.png?raw=true "Report")
+![Alt text](/report/page4.png?raw=true "Report")
+![Alt text](/report/page5.png?raw=true "Report")
+![Alt text](/report/page6.png?raw=true "Report")
+![Alt text](/report/page7.png?raw=true "Report")
+![Alt text](/report/page8.png?raw=true "Report")
+
+
