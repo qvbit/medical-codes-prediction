@@ -1,6 +1,6 @@
 # medical-codes-prediction
 
-Report below; takes a few seconds to load. 
+2020 Update: Adding report below; takes a few seconds to load. 
 
 Please note that the timeframe for this project was only 1 month hence the code itself is fairly rough around the edges.
 
