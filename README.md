@@ -2,7 +2,7 @@
 
 2020 Update: Adding report below; takes a few seconds to load. 
 
-Please note that the timeframe for this project was only 1 month hence the code itself is fairly rough around the edges.
+Please note that the timeframe for this project was only 1 month hence the code and project itself are fairly rough around the edges.
 
 ![Alt text](/report/page1.png?raw=true "Report")
 ![Alt text](/report/page2.png?raw=true "Report")
