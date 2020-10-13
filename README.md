@@ -4,6 +4,8 @@
 
 Please note that the timeframe for this project was only 1 month hence the code and project itself are fairly rough around the edges.
 
+Resources used: https://github.com/huggingface/transformers
+
 ![Alt text](/report/page1.png?raw=true "Report")
 ![Alt text](/report/page2.png?raw=true "Report")
 ![Alt text](/report/page3.png?raw=true "Report")
